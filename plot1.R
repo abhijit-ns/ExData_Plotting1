@@ -12,4 +12,4 @@ hist(HPower$Global_active_power,
      main = "Global Active Power")
 
 dev.copy(png, file = "plot1.png",width = 480, height = 480,)  ## Copy plot to a PNG file
-dev.off()  ## Don't forget to close the PNG device!
+dev.off()  ## Close the PNG device!
